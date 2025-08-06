@@ -1,5 +1,5 @@
 # Group-38-Collabration
-2NBK Voting System
+2BNK Voting System
 A secure, transparent, and efficient electronic voting system built collaboratively
 to modernize elections. 
 The 2NBK Voting System ensures security, privacy, and scalability,
