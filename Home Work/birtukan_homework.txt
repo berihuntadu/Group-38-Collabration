@@ -1,13 +1,13 @@
-QUESTION
+## QUESTION
 1 What is http
 2 what is the difference between http1.0 and http2.0
 3 Create a REST API
 3 Arabic to Geeze number convertor
 4 Bash command lines practice for Linux
 
-ANSWER
+## ANSWER
 
-1. What is HTTP?
+## 1. What is HTTP?
 
 HTTP (HyperText Transfer Protocol) is the main protocol used for communication on the web. It allows a client (like Chrome, Firefox) to request data and a server (like Google or Facebook) to send back information such as text, images, or videos. HTTP is stateless, meaning every request is handled separately without remembering previous ones.
 
@@ -38,7 +38,7 @@ HTTP/2.0 (2015): Faster with multiplexing (multiple requests on one connection) 
 HTTP/3.0 (2022): Uses QUIC (built on UDP) for speed and security.
 
 
-2 Difference between HTTP/1.0 and HTTP/2.0?
+## 2 Difference between HTTP/1.0 and HTTP/2.0?
 
 
 HTTP/1.0 (1996):
@@ -59,7 +59,7 @@ Much faster and efficient, especially for modern websites with many resources.
 
 In short: HTTP/1.0 is simple but slow (one request per connection), while HTTP/2.0 is modern, faster, and supports multiple requests in one connection.
 
-3 Arabic to Geeze number convertor
+## 3 Arabic to Geeze number convertor
 
 python code
 
@@ -125,7 +125,7 @@ for n in test_numbers:
     print(n, "→", arabic_to_geez(n))
 
 
-4 Bash command lines practice for Linux
+## 4 Bash command lines practice for Linux
 
 25 Common Bash/Linux Commands
 
@@ -255,5 +255,6 @@ for n in test_numbers:
 25. pwd – Show current working directory.
 
     pwd
+
 
 
