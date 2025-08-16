@@ -13,7 +13,7 @@ A secure, user-friendly web application designed to allow citizens to register, 
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [References](#references)
+
 
 ## Project Overview
 The Voting Website addresses the need for a secure, transparent, and accessible platform for elections. It allows citizens to cast votes safely, ensures only one vote per person, and provides administrators with tools to manage elections and display live results.
