@@ -13,7 +13,7 @@ A secure, user-friendly web application designed to allow citizens to register, 
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-
+- [References](#references)
 
 ## Project Overview
 The Voting Website addresses the need for a secure, transparent, and accessible platform for elections. It allows citizens to cast votes safely, ensures only one vote per person, and provides administrators with tools to manage elections and display live results.
@@ -80,6 +80,14 @@ Admins log in to manage elections and view results
 ## License
 
 This project is licensed under the MIT License.
+
+## References
+
+NEBE Official Website
+
+Ethiopian 2021 General Election Guidelines
+
+Voting System Security Practices
 
 ## Installation
 
