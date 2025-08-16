@@ -1,3 +1,12 @@
+QUESTION
+1 What is http
+2 what is the difference between http1.0 and http2.0
+3 Create a REST API
+3 Arabic to Geeze number convertor
+4 Bash command lines practice for Linux
+
+ANSWER
+
 1. What is HTTP?
 
 HTTP (HyperText Transfer Protocol) is the main protocol used for communication on the web. It allows a client (like Chrome, Firefox) to request data and a server (like Google or Facebook) to send back information such as text, images, or videos. HTTP is stateless, meaning every request is handled separately without remembering previous ones.
@@ -246,4 +255,5 @@ for n in test_numbers:
 25. pwd – Show current working directory.
 
     pwd
+
 
