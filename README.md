@@ -59,7 +59,7 @@ The project uses a **client-server architecture**:
 | Feature / Module | Status | Notes |
 |-----------------|--------|-------|
 | User Registration & Login | Completed | Secure login with password hashing and JWT authentication |
-| Voting System | Completed | One vote per user, vote recorded securely |
+| Voting System | In Progress | One vote per user, vote recorded securely |
 | How to Vote Page | Completed | Step-by-step guidance for users |
 | Live Results Display | Working | Real-time display of results |
 | Admin Panel | In Progress | Candidate management and monitoring underway |
