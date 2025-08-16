@@ -1,4 +1,4 @@
-# Group88 Voting Website Project
+# Group38 Voting Website Project
 
 A secure, user-friendly web application designed to allow citizens to register, log in, vote for candidates, and view election results. This system provides a unified environment where voters can participate safely and efficiently, while administrators can manage elections and monitor voting in real-time.
 
