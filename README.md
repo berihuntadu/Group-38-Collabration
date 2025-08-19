@@ -1,50 +1,103 @@
-# Group-38-Collabration
-2BNK Voting System
-A secure, transparent, and efficient electronic voting system built collaboratively
-to modernize elections. 
-The 2NBK Voting System ensures security, privacy, and scalability,
-while allowing multiple contributors to work efficiently in a shared repository.
+# Group38 Voting Website Project
 
+A secure, user-friendly web application designed to allow citizens to register, log in, vote for candidates, and view election results. This system provides a unified environment where voters can participate safely and efficiently, while administrators can manage elections and monitor voting in real-time.
 
- Features
-Secure Authentication: Encrypted voter identity verification by national id or kebelle id
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Project Objectives](#project-objectives)
+- [Challenges](#challenges)
+- [Architectural Overview](#architectural-overview)
+- [Technology Stack](#technology-stack)
+- [Project Progress](#project-progress)
+- [Contributors](#contributors)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [References](#references)
 
-Anonymous Voting: Protects voter privacy.
+## Project Overview
+The Voting Website addresses the need for a secure, transparent, and accessible platform for elections. It allows citizens to cast votes safely, ensures only one vote per person, and provides administrators with tools to manage elections and display live results.
 
-Real-time Vote Counting: Instant and accurate results.
+## Project Objectives
+1. **Secure Voting System**  
+   Implement a system where each voter can vote once and votes are recorded securely.
 
-Tamper-proof Records: Blockchain or cryptographic hashing for audit trails.
+2. **User-Friendly Interface**  
+   Easy-to-use interface for voters and administrators to navigate and complete tasks.
 
-Admin Panel: Manage elections, candidates, and voter access.
+3. **Real-Time Results**  
+   Display live election results while maintaining data integrity and security.
 
+4. **Accessibility**  
+   Ensure all eligible citizens can participate, including features for guidance like “How to Vote”.
 
+5. **Admin Control**  
+   Enable election monitoring, candidate management, and dispute resolution.
 
-Tech Stack
-Frontend: html css js
+## Challenges
+- **Security & Data Integrity:** Ensuring votes are safe from tampering and user data is protected.  
+- **User Verification:** Accurate verification to prevent multiple votes per person.  
+- **Accessibility & Guidance:** Providing clear instructions for all users, including those unfamiliar with digital voting.  
+- **Scalability:** Supporting many simultaneous users during elections.  
 
-Backend: python
+## Architectural Overview
+The project uses a **client-server architecture**:
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** Flask (Python)  
+- **Database:** SQLite/MySQL (depending on deployment)  
+- **Optional Deployment:** Docker for containerization and easier deployment  
 
-Database: sqli
+## Technology Stack
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** Python (Flask)  
+- **Database:** SQLite/MySQL   
 
-administrater 
-Admin logs in and creates an election.
+## Project Progress
 
-Voters register and verify their identity.
+| Feature / Module | Status | Notes |
+|-----------------|--------|-------|
+| User Registration & Login | Completed | Secure login with password hashing and JWT authentication |
+| Voting System | In Progress| One vote per user, vote recorded securely |
+| How to Vote Page | Completed | Step-by-step guidance for users |
+| Live Results Display | Working | Real-time display of results |
+| Admin Panel | In Progress | Candidate management and monitoring underway |
+| Security Enhancements | Planned | Additional encryption and audit logging planned |
 
-Voting session opens, and voters cast their votes securely.
+## Contributors
+- **birtukan and naol** – Backend Development (Flask & Security)  
+- **berihun and kena** – Frontend Development (HTML, CSS, JS)  
+  
 
-Votes are counted and displayed in real-time.
+## Installation
 
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-org/voting-website.git
+   cd voting-website
 
-🛡️ License
-This project is licensed under the MIT License.
+## Usage
 
+   Access the frontend at http://localhost:5000 (or your deployment URL)
 
+   Register and log in as a user to vote
 
+   Admins log in to manage elections, time and view results   
 
- Contact
-Team Lead:berihun tadu
-phone number 0955767758
+##  License
+
+   This project is licensed under the MIT License.
+
+##  References
+
+   NEBE Official Website
+
+   Ethiopian 2021 General Election Guidelines
+
+   Voting System Security Practices
+
+## Contact
+   Team Lead:berihun tadu
+ phone number 0955767758
 
 Email: youberihuntadu@gmail.com
 
