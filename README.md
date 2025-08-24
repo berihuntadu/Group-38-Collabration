@@ -43,13 +43,13 @@ The Voting Website addresses the need for a secure, transparent, and accessible 
 ## Architectural Overview
 The project uses a **client-server architecture**:
 - **Frontend:** HTML, CSS, JavaScript  
-- **Backend:** Flask (Python)  
+- **Backend:** Flask (Python) ,php 
 - **Database:** SQLite/MySQL (depending on deployment)  
 - **Optional Deployment:** Docker for containerization and easier deployment  
 
 ## Technology Stack
 - **Frontend:** HTML, CSS, JavaScript  
-- **Backend:** Python (Flask)  
+- **Backend:** Python (Flask) ,php
 - **Database:** SQLite/MySQL   
 
 ## Project Progress
@@ -57,15 +57,17 @@ The project uses a **client-server architecture**:
 | Feature / Module | Status | Notes |
 |-----------------|--------|-------|
 | User Registration & Login | Completed | Secure login with password hashing and JWT authentication |
-| Voting System | In Progress| One vote per user, vote recorded securely |
+| Voting System | completed| One vote per user, vote recorded securely |
 | How to Vote Page | Completed | Step-by-step guidance for users |
 | Live Results Display | Working | Real-time display of results |
-| Admin Panel | In Progress | Candidate management and monitoring underway |
+| Admin Panel | completed | Candidate management and monitoring underway |
 | Security Enhancements | Planned | Additional encryption and audit logging planned |
 
 ## Contributors
-- **birtukan and naol** – Backend Development (Flask & Security)  
-- **berihun and kena** – Frontend Development (HTML, CSS, JS)  
+- birtukan
+-  naol 
+- berihun
+- kena
   
 
 ## Installation
@@ -77,7 +79,6 @@ The project uses a **client-server architecture**:
 
 ## Usage
 
-   Access the frontend at http://localhost:5000 (or your deployment URL)
 
    Register and log in as a user to vote
 
